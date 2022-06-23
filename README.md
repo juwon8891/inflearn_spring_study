@@ -16,6 +16,7 @@
 <h6>https://www.inflearn.com/</h6>
 ---
 <h4>Commit convention rule</h4>
+
 > 1. feat : 새로운 기능 ✨
 > 2. fix : 버그 수정 🐛
 > 3. build : 빌드 관련 파일 수정 🏗️
