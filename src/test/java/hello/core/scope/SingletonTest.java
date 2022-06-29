@@ -24,6 +24,15 @@ public class SingletonTest {
     }
     @Scope("singleton")
     static class SingletonBean{
+        private int count = 0;
+
+        public void addCount() {
+            count++;
+        }
+
+        public int getCount() {
+            return count;
+        }
         @PostConstruct
         public void init(){
             System.out.println("SingletonBean.init");
